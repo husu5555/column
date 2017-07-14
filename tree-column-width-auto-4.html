@@ -1,0 +1,41 @@
+<!DOCTYPE>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>三栏布局flex法</title>
+    <style type="text/css">
+        html,
+        body {
+            margin: 0;
+            height: 100%;
+        }
+        
+        #container {
+            display: flex;
+        }
+        
+        #main {
+            flex: 1;
+            background: #ffe6b8;
+            margin: 0 10px;
+        }
+        
+        #left,
+        #right {
+            width: 200px;
+            height: 100%;
+            background: #a0b3d6;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <div id="left"></div>
+        <div id="main"></div>
+        <div id="right"></div>
+    </div>
+</body>
+
+</html>
